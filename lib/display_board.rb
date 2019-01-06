@@ -7,14 +7,14 @@ def display_board(board)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-end
 
-display_board(board= [" "," "," "," "," "," "," "," "," "])
-display_board(board= [" "," "," "," ","X"," "," "," "," "])
-display_board(board= ["O"," "," "," "," "," "," "," "," "])
-display_board(board= ["O"," "," "," ","X"," "," "," "," "])
-display_board(board= ["X","X","X"," "," "," "," "," "," "])
-display_board(board= [" "," "," "," "," "," ","O","O","O"])
-display_board(board= ["X"," "," "," ","X"," "," "," ","X"])
-display_board(board= [" "," ","O"," ","O"," ","O"," "," "])
-display_board(board= ["X","O","X","X","O","O"," "," "," "])
+  display_board(board= [" "," "," "," "," "," "," "," "," "])
+  display_board(board= [" "," "," "," ","X"," "," "," "," "])
+  display_board(board= ["O"," "," "," "," "," "," "," "," "])
+  display_board(board= ["O"," "," "," ","X"," "," "," "," "])
+  display_board(board= ["X","X","X"," "," "," "," "," "," "])
+  display_board(board= [" "," "," "," "," "," ","O","O","O"])
+  display_board(board= ["X"," "," "," ","X"," "," "," ","X"])
+  display_board(board= [" "," ","O"," ","O"," ","O"," "," "])
+  display_board(board= ["X","O","X","X","O","O"," "," "," "])
+end
