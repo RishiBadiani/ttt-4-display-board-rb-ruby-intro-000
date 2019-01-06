@@ -18,7 +18,6 @@ board = [" "," "," "," "," "," "," "," "," "]),
         [" "," ","O"," ","O"," ","O"," "," "]),
         ["X","O","X","X","O","O"," "," "," "])
 
-display_board(board[0])
 display_board(board[1])
 display_board(board[2])
 display_board(board[3])
