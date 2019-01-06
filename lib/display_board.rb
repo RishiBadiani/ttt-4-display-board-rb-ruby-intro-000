@@ -9,14 +9,11 @@ def display_board(board)
 end
 
 display_board(board = [" "," "," "," "," "," "," "," "," "])
-
-
-#board 1= [" "," "," "," "," "," "," "," "," "]
-#board 2= [" ","X"," "," "," "," "," "," "," "]
-#board 3= ["O"," "," "," "," "," "," "," "," "]
-#board 4= ["O"," "," "," ","X"," "," "," "," "]
-#board 5= ["X","X","X"," "," "," "," "," "," "]
-#board 6= [" "," "," "," "," "," ","O","O","O"]
-#board 7= ["X"," "," "," ","X"," "," "," ","X"]
-#board 8= [" "," ","O"," ","O"," ","O"," ",""]
-#board 9= ["X","O","X","X","O","O"," "," "," "]
+display_board(board = [" ","X"," "," "," "," "," "," "," "])
+display_board(board = ["O"," "," "," "," "," "," "," "," "])
+display_board(board = ["O"," "," "," ","X"," "," "," "," "])
+display_board(board = ["X","X","X"," "," "," "," "," "," "])
+display_board(board = [" "," "," "," "," "," ","O","O","O"])
+display_board(board = ["X"," "," "," ","X"," "," "," ","X"])
+display_board(board = [" "," ","O"," ","O"," ","O"," ",""])
+display_board(board = ["X","O","X","X","O","O"," "," "," "])
