@@ -1,13 +1,5 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board(board)
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-  puts "-----------"
-  puts "   |   |   "
-end
-
 board[0] = [" "," "," "," "," "," "," "," "," "]
 board[1] = [" "," "," "," ","X"," "," "," "," "]
 board[2] = ["O"," "," "," "," "," "," "," "," "]
@@ -17,6 +9,14 @@ board[5] = [" "," "," "," "," "," ","O","O","O"]
 board[6] = ["X"," "," "," ","X"," "," "," ","X"]
 board[7] = [" "," ","O"," ","O"," ","O"," "," "]
 board[8] = ["X","O","X","X","O","O"," "," "," "]
+
+def display_board(board)
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+  puts "-----------"
+  puts "   |   |   "
+end
 
 display_board(board[0])
 display_board(board[1])
